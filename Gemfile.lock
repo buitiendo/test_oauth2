@@ -137,6 +137,9 @@ GEM
       jwt (>= 2.0)
       omniauth (>= 1.1.1)
       omniauth-oauth2 (>= 1.5)
+    omniauth-instagram (1.3.0)
+      omniauth (~> 1)
+      omniauth-oauth2 (~> 1)
     omniauth-oauth2 (1.6.0)
       oauth2 (~> 1.1)
       omniauth (~> 1.9)
@@ -254,6 +257,7 @@ DEPENDENCIES
   mysql2 (>= 0.4.4, < 0.6.0)
   omniauth
   omniauth-google-oauth2
+  omniauth-instagram
   puma (~> 3.11)
   rails (~> 5.2.3)
   roo
